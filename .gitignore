@@ -1,0 +1,34 @@
+# Node.js & Vite
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Backend (в папке back)
+back/node_modules/
+back/.env
+back/logs/
+back/*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
