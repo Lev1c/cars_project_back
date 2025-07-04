@@ -7,6 +7,9 @@ const fetch = (...args) =>
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.post("/api", async (req, res) => {
